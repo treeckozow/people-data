@@ -7,7 +7,7 @@ from Menu import Menu
 
 def getMenuOption():
     for option in Menu:
-        print("type '" + str(option.value) + "' to " + option.name)
+        print(str(option.value) + ". " + option.name)
     return input("Please enter your choice: ")
 
 def saveEntrysAsData(info_list, data_list):
